@@ -9,10 +9,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="modal">
+        <div class="content">
+           <!-- <form id="myForm"> -->
+                <h1>Name</h1>
+                <input id="user" type="text">
+                <h1>E-mail</h1>
+                <input id="email" type="email">
+                <br>
+                <button class="subscribe_button">Subscribe</button>
+           <!-- </form> -->
+        </div>
+    </div>
     <header>
         <div class="container">
             <div class="branding">
                 <img src="./img/logo.png" alt="logo" height="80" width="158">
+                <span id="hello"></span>
             </div>
             <nav>
                 <ul>
@@ -23,6 +36,7 @@
                         <p><a href="#">ECU REMAP</a></p>
                         <p><a href="#">Custom features</a></p>
                         <p><a href="#">Custom projects</a></p>
+                        <p><a href="masini.html">Compatible cars</a></p>
                     </div>
                     </li>
                 </ul>
@@ -36,14 +50,10 @@
             <p class="stroke">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nulla itaque suscipit modi velit repudiandae. Eum repudiandae ea similique, tempore inventore odit provident quo quos, consequatur dolorum fugiat sit corporis.</p>
         </div>
     </section>
-
+ 
     <section class="newsletter">
         <div class="container">
-            <h1>Subscribe to our Newsletter!</h1>
-            <form>
-                <input type="email" placeholder="example@gmail.com">
-                <button type="submit" class="button_1">Subscribe</button>
-            </form>
+            <button class="button_1">Subscribe to our newsletter!</button>
         </div>
     </section>
 
@@ -70,5 +80,6 @@
     <footer>
         <p>RPO Performance, Copyright &copy; 2017</p>
     </footer>
+    <script src="modal.js"></script>
 </body>
 </html>
